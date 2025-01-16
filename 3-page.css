@@ -60,7 +60,7 @@ nav ul li {
 .header .navbar a:hover, a.active {
 	color: floralwhite;
 	border-bottom: .2rem solid floralwhite;
-	transition: 3s;
+	transition: .3s;
 }
 
 .check-btn{
