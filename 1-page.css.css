@@ -73,6 +73,9 @@ nav ul li {
 	border-bottom: .2rem solid floralwhite;
 	transition: .3s;
 }
+.header .navbar a.active{
+	color:teal;
+}
 
 	.check-btn {
 		font-size: 30px;
@@ -156,6 +159,7 @@ nav ul li {
 .header .icons div:hover {
 	color:floralwhite;
 	transition: .3s;
+	transform: scale(1.1);
 }
 
 /*ICONS - CART-USER*/
@@ -304,7 +308,7 @@ nav ul li {
 }
 
 .menu .container .menu-box {
-/* background: var(--white);	*/
+background: darkblue;
 /* Change the width and height as needed	*/
         width: 90%;   /* Adjust the width */
 		max-width: 400px; /* You can set a maximum width if needed       */
@@ -376,6 +380,7 @@ nav ul li {
 
 .menu .container .menu-box:hover{
 	box-shadow: 0px 0px 10px 0px #865439;
+	transform: scale(1.1);
 }
 
 .menu .to-menu{
@@ -400,6 +405,7 @@ nav ul li {
 
 .menu .to-menu a:hover{
 	background-color: var(--dark-main);
+	transform: scale(1.1);
 }
 /*top selling end*/
 
