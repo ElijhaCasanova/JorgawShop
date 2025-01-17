@@ -241,12 +241,13 @@ nav ul li a {
 .about-content h2{
 	font-size: 35px;
 	margin-bottom: 15px;
-	color: black;
+	color: cyan;
+	text-align:center;
 }
 .about-content p{
 	font-size: 18px;
 	line-heigh20 1.5;
-	color: #333;
+	color: cyan;
 	text-align: justify;
 }
 
