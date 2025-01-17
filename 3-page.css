@@ -316,7 +316,7 @@ nav ul li a {
 	cursor: pointer;
 }
 .team-info button:hover{
-	background-color: var(--dark-main);
+	background-color: cyan;
 	transform: scale(1.1);
 }
 
