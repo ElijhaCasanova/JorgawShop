@@ -75,6 +75,9 @@ nav ul li {
 	border-bottom: .2rem solid floralwhite;
 	transition: .3s;
 }
+.header .navbar a.active{
+	color:teal;
+}
 
 	.check-btn {
 		font-size: 30px;
@@ -158,6 +161,7 @@ nav ul li {
 .header .icons div:hover {
 	color:floralwhite;
 	transition: .3s;
+	transform: scale(1.1);
 }
 
 /*ICONS - CART-USER*/
@@ -420,7 +424,7 @@ flex-grow: 1
 
 /*for styling menu*/
 .menu-section{
-	background-color: none;
+	background-color: var(--bg);
 /*set the background color for the menu section*/
 /*add other container styles specific to the menu section here*/
 }
@@ -432,7 +436,7 @@ flex-grow: 1
 }
 
 .menu .container .menu-box {
-/*	background: var(--white);	*/
+background: darkblue;
 /*Change the width and height as needed*/
 width: 70%; /* adjust the width */
 max-width: 400px; /* you can set a maximum width if needed */
@@ -486,6 +490,7 @@ margin-left: 25px;
 
 	.menu .container .menu-box:hover {
 		box-shadow: 0px 0px 10px 0px #865439;
+		transform: scale(1.1);
 	}
 
 	.menu .container .menu-box .menu-content select {
@@ -517,6 +522,7 @@ margin-left: 25px;
 
 	.menu .container .menu-box .menu-content button:hover {
 		background-color: cyan;
+		transform: scale(1.1);
 	}
 
 /*FOOTER START*/
