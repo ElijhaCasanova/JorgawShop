@@ -74,7 +74,7 @@ nav ul li {
 	transition: .3s;
 }
 .header .navbar a.active{
-	color:teal;
+	color: teal;
 }
 
 	.check-btn {
@@ -308,7 +308,7 @@ nav ul li {
 }
 
 .menu .container .menu-box {
-background: darkblue;
+ background: darkblue;	
 /* Change the width and height as needed	*/
         width: 90%;   /* Adjust the width */
 		max-width: 400px; /* You can set a maximum width if needed       */
@@ -369,11 +369,11 @@ background: darkblue;
 	padding-left: 10px;
 }
 
-.menu .container .menu-box .meni-content a:hover {
+.menu .container .menu-box .menu-content a:hover {
 	background-color: var(--dark-main);
 }
 
-	/*.menu .container .menu-box:hover img{
+/*	.menu .container .menu-box:hover img{
 	transform: scale(1.1);
 	transition-duration: 0.3s;
 }*/
