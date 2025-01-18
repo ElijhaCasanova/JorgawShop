@@ -454,6 +454,10 @@ margin-right: 25px;
 margin-left: 25px;
 transition: transform 0.2s, box-shadow 0.2s;
 }
+.menu .container .menu-box:hover{
+	background-color: blue;
+	transition: .3s;
+}
 
 .menu .container .menu-box img {
 	width: 95%;
@@ -528,6 +532,7 @@ transition: transform 0.2s, box-shadow 0.2s;
 	.menu .container .menu-box .menu-content button:hover {
 		background-color: cyan;
 		transform: scale(1.1);
+		transition: .3s;
 	}
 
 /*FOOTER START*/
