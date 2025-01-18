@@ -76,7 +76,7 @@ nav ul li {
 	transition: .3s;
 }
 .header .navbar a.active{
-	color:teal;
+	color: teal;
 }
 
 	.check-btn {
@@ -424,7 +424,7 @@ flex-grow: 1
 
 /*for styling menu*/
 .menu-section{
-	background-color: var(--bg);
+	background-color: var(--bg );
 /*set the background color for the menu section*/
 /*add other container styles specific to the menu section here*/
 }
@@ -436,7 +436,7 @@ flex-grow: 1
 }
 
 .menu .container .menu-box {
-background: darkblue;
+	background: darkblue;	
 /*Change the width and height as needed*/
 width: 70%; /* adjust the width */
 max-width: 400px; /* you can set a maximum width if needed */
@@ -470,6 +470,7 @@ margin-left: 25px;
 	padding: 1px;
 	margin-bottom: 7px;
 	text-align: center;
+	color: cyan;
 }
 
 .menu .container .menu-box .menu-content p {
@@ -513,7 +514,7 @@ margin-left: 25px;
 		border-radius: 50px;
 		border-color: blue;
 		border-style: solid;
-		border-width:5px;
+		border-width: 5px;
 		padding: 5px;
 		padding-right: 10px;
 		padding-left: 10px;
