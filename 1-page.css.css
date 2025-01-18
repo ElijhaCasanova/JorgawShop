@@ -319,10 +319,10 @@ background: darkblue;
 		box-shadow: 3px 3px 10px rgba(179, 170, 170, 0.2);
 		border-radius: 20px;
 		padding: 0.5rem;
-		border: var(--bg);
+		border: cyan;
 		border-radius: 20px;
 		border-style: solid;
-		border-width: 3px;
+		border-width: 5px;
 }
 
 .menu .container .menu-box img {
